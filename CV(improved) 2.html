@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aidin</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #f7971e, #ffd200); /* Orange-yellow gradient */
+            font-family: 'Roboto', sans-serif; /* Modern, clean font */
+            line-height: 1.6;
+            margin: 0;
+            overflow-x: hidden; /* Prevents horizontal scrollbar */
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px #ff6600;
+            margin: 30px 0;
+            font-size: 3em;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            justify-content: space-around; /* Distribute space evenly */
+        }
+
+        .container img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%; /* Circular image */
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+            border: 10px solid #ffcc66; /* Orange border */
+            animation: rotate 10s linear infinite; /* Smooth rotation */
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .container p {
+            font-size: 1.3em;
+            line-height: 1.5;
+            color: white;
+            text-shadow: 2px 2px 4px #000000; /* Black text shadow */
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 0 50px;
+        }
+
+        .container p:first-of-type {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 3px 3px 5px #333333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background: linear-gradient(to right, #ff9933, #ffcc66);
+            color: white;
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .social-icons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-size: cover;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
+        .social-icons a:nth-child(1) {
+            background-image: url('instagram-icon.png'); /* Replace with your icon */
+        }
+
+        .social-icons a:nth-child(2) {
+            background-image: url('github-icon.png'); /* Replace with your icon */
+        }
+
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <h1>My CV</h1>
+    </div>
+    <div class="container">
+        <div style="width: 10% ; padding-top: 9%">
+            <img src="media\shoyo.jpg" alt="Shoyo Pic">
+        </div>
+
+        <div style="width: 70%;">
+            <p style="font-size: xxx-large;"> My name is Aidin Ghasemi</p>
+            <p style="font-size: x-large; margin-top: 10px;">Skills:</p>
+            <p><b>I. Software Proficiency:</b></p>
+            <ul>
+                <li>Adobe Creative Suite: Proficient in Photoshop and Premiere Pro for image editing, video editing, and graphic design. I have 3 years of experience as a cameraman.</li>
+                <li>Web Development: Familiar with HTML, CSS, and PHP for front-end and back-end web development.</li>
+                <li>Database Management: Experienced with database management principles and practices (MySQL, SQLite, SQL Server).</li>
+                <li>Python Programming: Proficient in Python.</li>
+                <li>ICDL (International Computer Driving Licence): Fully certified.</li>
+            </ul>
+            <p><b>II. Language Skills:</b></p>
+            <ul>
+                <li>English: Fluent (reading, writing, speaking).</li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/Aidinghasemii" target="_blank">
+                    <img src="Media\Insta.png" alt="Instagram" style="width: 35px">
+                </a>
+                <a href="https://github.com/AidinGhasemii" target="_blank">
+                    <img src="Media\github.webp" alt="GitHub" style="width: 40px">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
