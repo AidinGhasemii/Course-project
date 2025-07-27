@@ -1,5 +1,5 @@
 def Solo_Leveling():
-    t = open("Solo Leveling.txt", mode='r')
+    t = open("Solo leveling.txt", mode='r')
     print(t.read())
     t.close()
 
