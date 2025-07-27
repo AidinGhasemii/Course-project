@@ -1,0 +1,5 @@
+name : SoloLeveling
+Sesson: 2
+Ep: 25
+Genre : Action , S-fi
+summery: Solo Leveling follows Sung Jinwoo, the weakest hunter in a world where gates connect to monster-filled dimensions. After a near-fatal encounter in a double dungeon, he's chosen by the System, a unique program granting him the ability to level up and gain power. Jinwoo embarks on a journey to uncover the System's secrets, defeat powerful foes, and protect humanity from the dangers lurking within the gates.
